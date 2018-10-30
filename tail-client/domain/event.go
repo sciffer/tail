@@ -23,7 +23,6 @@ type Event struct {
 	Kubernetes     Kubernetes
 	LoggerName     string `json:"loggerName"`
 	Level          Level
-	Type         string `json:"type"`
 	Thread         string
 	ThreadPriority int
 	Timestamp      Timestamp  `json:"@timestamp"`
